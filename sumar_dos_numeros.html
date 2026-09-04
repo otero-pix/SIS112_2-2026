@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suma Dinámica - UCB</title>
+    <style>
+        /* Estilos generales y fondo */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f6f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        /* Contenedor principal con el Azul UCB */
+        .contenedor {
+            background-color: #0033a0; 
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            width: 320px;
+            color: white;
+        }
+
+        /* Título con el Amarillo UCB */
+        h2 {
+            color: #ffd100;
+            margin-top: 0;
+            margin-bottom: 20px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        /* Campos de entrada */
+        input[type="number"] {
+            width: calc(100% - 24px);
+            padding: 12px;
+            margin: 10px 0;
+            border: 2px solid #ffd100;
+            border-radius: 6px;
+            font-size: 16px;
+            outline: none;
+            transition: box-shadow 0.3s ease;
+        }
+
+        input[type="number"]:focus {
+            box-shadow: 0 0 8px rgba(255, 209, 0, 0.8);
+        }
+
+        /* Botón interactivo */
+        button {
+            background-color: #ffd100;
+            color: #0033a0;
+            border: none;
+            padding: 12px 20px;
+            margin-top: 15px;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 6px;
+            cursor: pointer;
+            width: 100%;
+            transition: background-color 0.3s, transform 0.1s;
+        }
+
+        button:hover {
+            background-color: #e6bd00;
+        }
+
+        button:active {
